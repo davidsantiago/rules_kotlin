@@ -28,7 +28,7 @@ load(
     _maven_dependencies = "maven_dependencies",
 )
 
-_BAZEL_JAVA_LAUNCHER_VERSION = "0.8.1"
+_BAZEL_JAVA_LAUNCHER_VERSION = "0.20.0"
 
 _KOTLIN_CURRENT_COMPILER_RELEASE = {
     "urls": [
@@ -75,5 +75,5 @@ def kotlin_repositories(compiler_release = _KOTLIN_CURRENT_COMPILER_RELEASE):
                  _BAZEL_JAVA_LAUNCHER_VERSION +
                  "/src/main/java/com/google/devtools/build/lib/bazel/rules/java/" +
                  "java_stub_template.txt")],
-        sha256 = "86660ee7d5b498ccf611a1e000564f45268dbf301e0b2b08c984dcecc6513f6e",
+        sha256 = "1483b4ab1a3e8dd6754db50098d9d904533797777e6c3872425b5b1787138935",
     )
