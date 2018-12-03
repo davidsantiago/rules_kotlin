@@ -2,10 +2,17 @@
 
 [Skydoc documentation](https://bazelbuild.github.io/rules_kotlin)
 
-# A fork of kotlin_rules for Kotlin 1.3 by @loreto
+# A fork of kotlin_rules for Kotlin 1.3 by Daniel Loreto
 As of December 3, 2018, the official version of kotlin_rules does not support Kotlin 1.3. This fork updates the rules so that the use the 1.3.10 release of the Kotlin compiler.
 
-Limitations:
+For it to work with Bazel 0.20.0 it required the following bazelrc file:
+```
+build --incompatible_use_remotejdk_as_host_javabase
+```
+
+That flag will be set to true by default in Bazel 0.21 so the need for it will go away.
+
+Other Limitations:
 + Kotlin 1.3 removes the need for a runtime library. As a result I've removed that dependency from the Bazel rules. That means that you can not use this fork for both 1.3 and 1.2 versions of Kotlin.
 + The test suite should be expanded more to test 1.3 specific features.
 
