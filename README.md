@@ -4,20 +4,20 @@
 
 # Announcements
 * <b>August 14, 2018.</b> Js support. No documentation yet but see the nested example workspace `examples/node`.
-* <b>August 14, 2018.</b> Android support. No documentation but it's a simple integration. see 
+* <b>August 14, 2018.</b> Android support. No documentation but it's a simple integration. see
   `kotlin/internal/jvm/android.bzl`.
-* <b>Jun 29, 2018.</b> The commits from this date forward are compatible with bazel `>=0.14`. JDK9 host issues were 
-  fixed as well some other deprecations. I recommend skipping `0.15.0` if you   are on a Mac. 
+* <b>Jun 29, 2018.</b> The commits from this date forward are compatible with bazel `>=0.14`. JDK9 host issues were
+  fixed as well some other deprecations. I recommend skipping `0.15.0` if you   are on a Mac.
 * <b>May 25, 2018.</b> Test "friend" support. A single friend dep can be provided to `kt_jvm_test` which allows the test
   to access internal members of the module under test.
-* <b>February 15, 2018.</b> Toolchains for the JVM rules. Currently this allow tweaking: 
+* <b>February 15, 2018.</b> Toolchains for the JVM rules. Currently this allow tweaking:
     * The JVM target (bytecode level).
     * API and Language levels.
-    * Coroutines, enabled by default. 
+    * Coroutines, enabled by default.
 * <b>February 9, 2018.</b> Annotation processing.
 * <b>February 5, 2018. JVM rule name change:</b> the prefix has changed from `kotlin_` to `kt_jvm_`.
 
-# Overview 
+# Overview
 
 These rules were initially forked from [pubref/rules_kotlin](http://github.com/pubref/rules_kotlin).
 Key changes:
@@ -35,9 +35,9 @@ Key changes:
 * Mixed-Mode compilation (compile Java and Kotlin in one pass).
 
 # Quick Guide
-This section just contains a quick overview. Consult the generated 
-[documentation](https://bazelbuild.github.io/rules_kotlin). Note: Skydoc documentation is no longer being generated. 
-Comprehensive documentation will have to wait till the new documentation generation tool is ready. A contribution to 
+This section just contains a quick overview. Consult the generated
+[documentation](https://bazelbuild.github.io/rules_kotlin). Note: Skydoc documentation is no longer being generated.
+Comprehensive documentation will have to wait till the new documentation generation tool is ready. A contribution to
 port the documentation to the RST format like `rules_go` has would be very welcome !
 
 
@@ -86,4 +86,3 @@ This project is licensed under the [Apache 2.0 license](LICENSE), as are all con
 
 See the [CONTRIBUTING](CONTRIBUTING.md) doc for information about how to contribute to
 this project.
-
