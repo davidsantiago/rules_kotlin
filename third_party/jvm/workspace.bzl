@@ -479,81 +479,81 @@ def list_dependencies():
             "actual": "@io_bazel_rules_kotlin_org_hamcrest_hamcrest_core//jar",
             "bind": "jar/io_bazel_rules_kotlin_org/hamcrest/hamcrest_core"
         }, {
-            "artifact": "org.jetbrains.kotlin:kotlin-stdlib-common:1.2.41",
+            "artifact": "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11",
             "lang": "java",
-            "sha1": "bf0bdac1048fd1c5c54362978dd7e06bd2230e78",
-            "sha256": "51f6be0d12b390d0cc4b4890c456a2de89007232799712486fba80fb4522dbc8",
+            "sha1": "d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02",
+            "sha256": "75bdd11bedf5736a5b95bbdb643a8f920a9e801caa20f5335a499fa95dc8f9fc",
             "repository": "https://repo.maven.apache.org/maven2/",
-            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.41/kotlin-stdlib-common-1.2.41.jar",
+            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.11/kotlin-stdlib-common-1.3.11.jar",
             "source": {
-                "sha1": "02ba5e4c5e56d3647e65ec0ba697f11c01c75775",
-                "sha256": "073ac52c21d2dde7a2ed4c2ad540097c4a2c244785e1419a44c7c2317ab1993f",
+                "sha1": "e49742d3259938ea3539346c8ca3babb54a5140f",
+                "sha256": "e5103a37f3e24b929ffa95996831b4e6393b7ff60d3c612b2c02e0b20df9852b",
                 "repository": "https://repo.maven.apache.org/maven2/",
-                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.41/kotlin-stdlib-common-1.2.41-sources.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.11/kotlin-stdlib-common-1.3.11-sources.jar"
             },
             "name": "io_bazel_rules_kotlin_org_jetbrains_kotlin_kotlin_stdlib_common",
             "actual": "@io_bazel_rules_kotlin_org_jetbrains_kotlin_kotlin_stdlib_common//jar",
             "bind": "jar/io_bazel_rules_kotlin_org/jetbrains/kotlin/kotlin_stdlib_common"
         }, {
-            "artifact": "org.jetbrains.kotlinx:atomicfu-common:0.10.1",
+            "artifact": "org.jetbrains.kotlinx:atomicfu-common:0.11.2",
             "lang": "java",
-            "sha1": "4eb87291dff597f2f5bac4876fae02ef23466a39",
-            "sha256": "2fc575048a0512edc75c8718cdc42a131688f1517ab425465bb4ffcdd1b9d958",
+            "sha1": "eb1de5f3b800992b2b72655ef8c595b4f11ee444",
+            "sha256": "ef78e68140c10c3e186b67c219877c01ccd98ccd505b2463f86aec3ed243da0e",
             "repository": "https://repo.maven.apache.org/maven2/",
-            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/atomicfu-common/0.10.1/atomicfu-common-0.10.1.jar",
+            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/atomicfu-common/0.11.2/atomicfu-common-0.11.2.jar",
             "source": {
-                "sha1": "84baf577721f708c578737624a91fa94b2aee11d",
-                "sha256": "108bc205ea061006315a720b9e93109cb01d1fbdbb81ba145f7f6677a7df9e7e",
+                "sha1": "5217a35c24d1b23df4dc0df62c777968b45f33f7",
+                "sha256": "584e409f54aa23c4a91046f367775d6f8ceeb73ff0221d62d5c8073949ccdeae",
                 "repository": "https://repo.maven.apache.org/maven2/",
-                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/atomicfu-common/0.10.1/atomicfu-common-0.10.1-sources.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/atomicfu-common/0.11.2/atomicfu-common-0.11.2-sources.jar"
             },
             "name": "io_bazel_rules_kotlin_org_jetbrains_kotlinx_atomicfu_common",
             "actual": "@io_bazel_rules_kotlin_org_jetbrains_kotlinx_atomicfu_common//jar",
             "bind": "jar/io_bazel_rules_kotlin_org/jetbrains/kotlinx/atomicfu_common"
         }, {
-            "artifact": "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:0.23.1",
+            "artifact": "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.1",
             "lang": "java",
-            "sha1": "ee988a3e0a918579315ce6654f415b47fec39d36",
-            "sha256": "f127058ac18e143aa2ec814fe034532289b9a3eb2b2e5cbcb8e246a594647632",
+            "sha1": "679991d1b388fd9392eeb3d63b10b3f4c284f389",
+            "sha256": "1fb02f239ac87ab97d2b6478dca2ef769d4d20390a1e4d77ccf40bd4b45cf043",
             "repository": "https://repo.maven.apache.org/maven2/",
-            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/0.23.1/kotlinx-coroutines-core-common-0.23.1.jar",
+            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/1.0.1/kotlinx-coroutines-core-common-1.0.1.jar",
             "source": {
-                "sha1": "6685d2c66007c05a6b2af549ff47053fa0154980",
-                "sha256": "5cd1455ed57c3ebe7dd0ccac73d4ebd3f97730daba330969cdbe26dbdbdec7c8",
+                "sha1": "16382dce10af5c4159654272de71e8c0efe854c7",
+                "sha256": "e8bdce21224dd646c2d0eefc5398d507fcdfe5af4298c52de00147e3593b2c64",
                 "repository": "https://repo.maven.apache.org/maven2/",
-                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/0.23.1/kotlinx-coroutines-core-common-0.23.1-sources.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-common/1.0.1/kotlinx-coroutines-core-common-1.0.1-sources.jar"
             },
             "name": "io_bazel_rules_kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core_common",
             "actual": "@io_bazel_rules_kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core_common//jar",
             "bind": "jar/io_bazel_rules_kotlin_org/jetbrains/kotlinx/kotlinx_coroutines_core_common"
         }, {
-            "artifact": "org.jetbrains.kotlinx:kotlinx-coroutines-core:0.23.1",
+            "artifact": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1",
             "lang": "java",
-            "sha1": "fb67b623766f0b2d56697f0b8ed14450f285b8ed",
-            "sha256": "2f0c2d951f8defdee8f23ffcc28f12faee8330c56e0172c668e6a0a661429e97",
+            "sha1": "f33e8dab753f33d1bbb07cca664fd6f13d993d7e",
+            "sha256": "1bbc516011181c35c23552f39584d9e1dcc46c2c38486c8e71d56060a6722a12",
             "repository": "https://repo.maven.apache.org/maven2/",
-            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.23.1/kotlinx-coroutines-core-0.23.1.jar",
+            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.0.1/kotlinx-coroutines-core-1.0.1.jar",
             "source": {
-                "sha1": "8d31a69c99278c2df5314bb3da19ddbd5fa085c5",
-                "sha256": "b6de3cc5a907f0007d23c4efc38f8690adc16f4e488256c5ce2626fec06bfb11",
+                "sha1": "b1cf01c9c43664298d84d9fd3342786142889538",
+                "sha256": "9125cb95d723914133329239a9eb803be5b5d4feb609feb668782bd38eb07554",
                 "repository": "https://repo.maven.apache.org/maven2/",
-                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.23.1/kotlinx-coroutines-core-0.23.1-sources.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.0.1/kotlinx-coroutines-core-1.0.1-sources.jar"
             },
             "name": "io_bazel_rules_kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core",
             "actual": "@io_bazel_rules_kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core//jar",
             "bind": "jar/io_bazel_rules_kotlin_org/jetbrains/kotlinx/kotlinx_coroutines_core"
         }, {
-            "artifact": "org.jetbrains:annotations:13.0",
+            "artifact": "org.jetbrains:annotations:16.0.3",
             "lang": "java",
-            "sha1": "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9",
-            "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+            "sha1": "62c7299ced2a089cc541726c6d763da9417604a0",
+            "sha256": "04b16e8d2309bf7771fbee16187b76f63af6ccd023cf664ec846e4e8e65c5b3f",
             "repository": "https://repo.maven.apache.org/maven2/",
-            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+            "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/16.0.3/annotations-16.0.3.jar",
             "source": {
-                "sha1": "5991ca87ef1fb5544943d9abc5a9a37583fabe03",
-                "sha256": "42a5e144b8e81d50d6913d1007b695e62e614705268d8cf9f13dbdc478c2c68e",
+                "sha1": "c3bc8659eca392a635059c6cda7b1365dfbe5a43",
+                "sha256": "4078864b304d14f01d1100eb3ed05a1c1a0ec9e82bac6351f101259ff9094049",
                 "repository": "https://repo.maven.apache.org/maven2/",
-                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/16.0.3/annotations-16.0.3-sources.jar"
             },
             "name": "io_bazel_rules_kotlin_org_jetbrains_annotations",
             "actual": "@io_bazel_rules_kotlin_org_jetbrains_annotations//jar",
