@@ -20,6 +20,7 @@ github_archive(
     commit = "106ffc04be1abf3ff3399f54ccf149815b287dd9",
     repo = "google/protobuf",
 )
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_jar")
 
 http_jar(
     name = "bazel_deps",
