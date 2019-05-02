@@ -173,11 +173,11 @@ def define_kt_toolchain(
         coroutines = coroutines,
         debug =
             select({
-                "//kotlin/internal:builder_debug_trace": ["trace"],
+                "@io_bazel_rules_kotlin//kotlin/internal:builder_debug_trace": ["trace"],
                 "//conditions:default": [],
             }) +
             select({
-                "//kotlin/internal:builder_debug_timings": ["timings"],
+                "@io_bazel_rules_kotlin//kotlin/internal:builder_debug_timings": ["timings"],
                 "//conditions:default": [],
             }),
         visibility = ["//visibility:public"],
