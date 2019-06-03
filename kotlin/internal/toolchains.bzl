@@ -46,7 +46,6 @@ def _kotlin_toolchain_impl(ctx):
     toolchain = dict(
         language_version = ctx.attr.language_version,
         api_version = ctx.attr.api_version,
-        coroutines = ctx.attr.coroutines,
         debug = ctx.attr.debug,
         jvm_target = ctx.attr.jvm_target,
         kotlinbuilder = ctx.attr.kotlinbuilder,
@@ -103,15 +102,6 @@ _kt_toolchain = rule(
             using `tags` attribute defined directly on the rules.""",
             allow_empty = True,
         ),
-        "coroutines": attr.string(
-            doc = "the -Xcoroutines flag, enabled by default as it's considered production ready 1.2.0 onward.",
-            default = "enable",
-            values = [
-                "enable",
-                "warn",
-                "error",
-            ],
-        ),
         "jvm_runtime": attr.label(
             doc = "The implicit jvm runtime libraries. This is internal.",
             default = Label("@" + _KT_COMPILER_REPO + "//:kotlin-stdlib"),
@@ -161,8 +151,7 @@ def define_kt_toolchain(
         name,
         language_version = None,
         api_version = None,
-        jvm_target = None,
-        coroutines = None):
+        jvm_target = None):
     """Define the Kotlin toolchain."""
     impl_name = name + "_impl"
     _kt_toolchain(
@@ -170,7 +159,6 @@ def define_kt_toolchain(
         language_version = language_version,
         api_version = api_version,
         jvm_target = jvm_target,
-        coroutines = coroutines,
         debug =
             select({
                 "@io_bazel_rules_kotlin//kotlin/internal:builder_debug_trace": ["trace"],

@@ -149,7 +149,7 @@ class KotlinBuilder @Inject internal constructor(
             moduleName = argMap.mandatorySingle(KotlinBuilderFlags.MODULE_NAME).also {
                 check(it.isNotBlank()) { "--kotlin_module_name should not be blank" }
             }
-            passthroughFlags = argMap.optionalSingle(KotlinBuilderFlags.PASSTHROUGH_FLAGS)
+            argMap.optionalSingle(KotlinBuilderFlags.PASSTHROUGH_FLAGS)?.let { passthroughFlags = it }
             argMap.optional(KotlinBuilderFlags.FRIEND_PATHS)?.let(::addAllFriendPaths)
             toolchainInfoBuilder.commonBuilder.apiVersion = argMap.mandatorySingle(KotlinBuilderFlags.API_VERSION)
             toolchainInfoBuilder.commonBuilder.languageVersion = argMap.mandatorySingle(KotlinBuilderFlags.LANGUAGE_VERSION)
