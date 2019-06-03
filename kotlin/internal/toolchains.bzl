@@ -80,18 +80,20 @@ _kt_toolchain = rule(
         ),
         "language_version": attr.string(
             doc = "this is the -languag_version flag [see](https://kotlinlang.org/docs/reference/compatibility.html)",
-            default = "1.2",
+            default = "1.3",
             values = [
                 "1.1",
                 "1.2",
+                "1.3"
             ],
         ),
         "api_version": attr.string(
             doc = "this is the -api_version flag [see](https://kotlinlang.org/docs/reference/compatibility.html).",
-            default = "1.2",
+            default = "1.3",
             values = [
                 "1.1",
                 "1.2",
+                "1.3"
             ],
         ),
         "debug": attr.string_list(
@@ -112,7 +114,7 @@ _kt_toolchain = rule(
         ),
         "jvm_runtime": attr.label(
             doc = "The implicit jvm runtime libraries. This is internal.",
-            default = Label("@" + _KT_COMPILER_REPO + "//:kotlin-runtime"),
+            default = Label("@" + _KT_COMPILER_REPO + "//:kotlin-stdlib"),
             providers = [JavaInfo],
             cfg = "target",
         ),
